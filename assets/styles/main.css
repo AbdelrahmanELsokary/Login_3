@@ -25,3 +25,12 @@ body {
     width: 1170px;
   }
 }
+:root {
+  --white: white;
+  --black: black;
+  --Underwater-Falling: #0c21c1;
+  --Stratos: #000842;
+  --Brainstem-Grey: #b5b5b5;
+  --Thunder: #4d4d4d;
+  --Million-Grey: #999999;
+}
