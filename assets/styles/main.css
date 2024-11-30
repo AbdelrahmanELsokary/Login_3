@@ -47,7 +47,12 @@ header .container a {
   color: var(--black);
 }
 section .container {
+  display: flex;
+  justify-content: space-between;
   padding-top: 100px;
+}
+section .container .login {
+  width: 40%;
 }
 section .container h1 {
   font-size: 30px;
@@ -135,4 +140,32 @@ section .container .social_icon {
 }
 section .container .social_icon img {
   margin: 20px 10px 0 0;
+}
+section .container .image {
+  border-radius: 15px;
+  width: 55%;
+  background-color: var(--Lapis-on-Neptune);
+}
+section .container .image img {
+  margin-left: 40px;
+}
+section .container .image h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--white);
+  padding-left: 20px;
+}
+section .container .image p {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--white);
+  padding: 0 0 10px 20px;
+}
+section .container .image a {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--white);
+  display: flex;
+  justify-content: end;
+  padding: 20px;
 }
