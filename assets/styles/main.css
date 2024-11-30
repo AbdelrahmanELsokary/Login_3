@@ -27,7 +27,6 @@ body {
 }
 a {
   text-decoration: none;
-  text-transform: capitalize;
 }
 :root {
   --white: white;
@@ -37,6 +36,7 @@ a {
   --Brainstem-Grey: #b5b5b5;
   --Thunder: #4d4d4d;
   --Million-Grey: #999999;
+  --Lapis-on-Neptune: #000842;
 }
 header {
   padding-top: 15px;
@@ -45,4 +45,94 @@ header .container a {
   font-size: 20px;
   font-weight: 600;
   color: var(--black);
+}
+section .container {
+  padding-top: 100px;
+}
+section .container h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+section .container p,
+span {
+  font-size: 16px;
+  font-weight: 400;
+}
+section .container a {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 15px;
+  color: var(--Underwater-Falling);
+}
+section .container form {
+  padding-top: 50px;
+}
+section .container label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--Million-Grey);
+}
+section .container form .enter_email {
+  display: flex;
+  margin-bottom: 50px;
+  padding-top: 5px;
+}
+section .container form .enter_email img {
+  height: 20px;
+  margin-top: 5px;
+}
+section .container form .enter_email input {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+section .container form .enter_email input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: var(--Lapis-on-Neptune);
+}
+section .container form .enter_email {
+  border-bottom: 2px solid var(--Stratos);
+}
+#enter_password {
+  border-bottom: 2px solid var(--Million-Grey);
+  margin: 0;
+}
+section .container form .remebmebr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+section .container form .remebmebr .check {
+  display: flex;
+}
+section .container form .remebmebr .check label,
+.forgot a {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--black);
+  padding-left: 5px;
+}
+section .container form .remebmebr .forgot a {
+  color: var(--Thunder);
+}
+section .container form .submit {
+  background-color: var(--Underwater-Falling);
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 32px;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--white);
+  margin-top: 50px;
+}
+section .container .social_icon {
+  text-align: center;
+  padding-top: 40px;
+}
+section .container .social_icon img {
+  margin: 20px 10px 0 0;
 }
