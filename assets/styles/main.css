@@ -25,6 +25,10 @@ body {
     width: 1170px;
   }
 }
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
 :root {
   --white: white;
   --black: black;
@@ -33,4 +37,12 @@ body {
   --Brainstem-Grey: #b5b5b5;
   --Thunder: #4d4d4d;
   --Million-Grey: #999999;
+}
+header {
+  padding-top: 15px;
+}
+header .container a {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
 }
