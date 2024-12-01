@@ -45,7 +45,8 @@ header {
 }
 header .container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  width: 100%;
 }
 header .container a {
   font-size: 20px;
@@ -57,7 +58,7 @@ header .container .phone {
   font-size: 15px;
   font-weight: 400;
   color: var(--white);
-  padding-right: 20px;
+  padding-right: 200px;
 }
 section {
   height: 100vh;
@@ -120,7 +121,7 @@ section .container form .enter_email {
 }
 #enter_password {
   border-bottom: 2px solid var(--Million-Grey);
-  margin: 0;
+  /* margin: 0; */
 }
 section .container form .remebmebr {
   display: flex;
